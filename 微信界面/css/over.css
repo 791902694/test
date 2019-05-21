@@ -84,7 +84,7 @@
     height: 473px;
     background-color: #666666;
     position: absolute;
-    top: 8%;
+    top: 9%;
     left:71%;
     padding-left: 2%;
     display: none;
@@ -126,4 +126,15 @@
     float: right;
     width: 87px;
     margin-top: -9px;
+}
+
+#overall .head .top01 .a #d{
+    width: 28px;
+    height: 28px;
+    background-color:#666666;
+    position: absolute;
+    left: 88%;
+    top: -3%;
+    transform:rotate(45deg);
+    display: block
 }

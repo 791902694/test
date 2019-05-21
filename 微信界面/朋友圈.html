@@ -6,7 +6,20 @@
     <link href="css/over.css" rel="stylesheet">
     <link href="css/iconfont.css" rel="stylesheet">
     <link href="css/pengyouquan.css" rel="stylesheet">
-
+    <style>
+        #overall .body .d2 .d5 .d6{
+            width: 31%;
+            height: 87%;
+            position: absolute;
+            top:10%;
+            right:9%;
+            background-color: #121312;
+            /*display: none;*/
+        }
+        #d7:hover .d6{
+            display:inline-block;
+        }
+    </style>
 </head>
 <body>
 <div id="overall">
@@ -44,7 +57,13 @@
             <div class="d4"></div>
             <div class="d5">
                 <div style="float: left;position: relative;left: 4%">1小时前</div>
-                <div style="float: right;width: 6%;background-color: #a4a4a4;font-size: 30px;position: relative;left: -3%">.&nbsp;.</div>
+                <div id="d7" style="float: right;width: 4%;background-color: #a4a4a4;font-size: 30px;position: relative;left: -3%">..</div>
+                <div class="d6" >
+                    <div style="background-color: black;width: 20px;height: 20px;transform:rotate(45deg);position:absolute;top: 30%;right: -3%"></div>
+                    <div style="color: white;width: 20%;float: left;position: absolute;top: 16%;left: 14%">❤赞</div>
+                    <div style="color: white;width: 60%;float: right;position: absolute;top: 23%;left: 71%"><img style="width: 16%;position: absolute;top: 10%;left: -21%" src="img/评论.png">评论</div>
+                </div>
+
             </div>
         </div>
 

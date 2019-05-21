@@ -66,14 +66,18 @@ a{
     width: 19%;
     margin-top: 5%;
     margin-left: 2%;
+    float: left;
 }
-#overall .body .post span{
-    width: 72%;
+#overall .body .post div{
+    height: 50%;
+    width: 50%;
+    float: left;
     font-size: 64px;
-    background-color: #fffded;
+    line-height: 188%;
+    background-color: #eeeeee;
     position: relative;
-    top:-20%;
-    left: 2%;
+    top:23%;
+    left: 3%;
 }
 #overall .body .get{
     height: 20%;
@@ -88,13 +92,15 @@ a{
     margin-left: 2%;
     float: right;
 }
-#overall .body .get span{
-    width: 72%;
+#overall .body .get div{
+    height: 50%;
+    width: 50%;
     font-size: 64px;
-    background-color: #1bff66;
+    line-height: 188%;
+    background-color: #3bd851;
     position: relative;
-    top:37%;
-    right: -47%;
+    top:26%;
+    right: -29%;
 }
 #overall .foot{
     height: 109px;
