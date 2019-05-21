@@ -1,0 +1,93 @@
+#yuan{
+    width: 100%;
+    height:500px;
+    border: solid 1px red;
+    background-image: url('../img/背景图片.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+    float: left;
+}
+#pmy img{
+    height: 81%;
+    width: 21%;
+    padding-right: 30px;
+    padding-top: 24%;
+    float: right;
+}
+#overall .body .d1{
+    height: 10%;
+    width:100%;
+    float: left;
+    border-bottom: solid 0.1px black;
+    margin: auto;
+    opacity: 0.65;
+}
+#overall .body .d1 span{
+    display: inline-block;
+    font-size: 55px;
+    position: relative;
+    top: 32%;
+    left: 18%;
+    font-weight: bolder;
+}
+#overall .body .d2{
+    width: 100%;
+    height: 60%;
+    float: left;
+}
+#overall .body .d2 .d3{
+    width: 100%;
+    height: 25%;
+    float: left;
+
+}
+#overall .body .d2 .d3 img{
+    height: 90%;
+    width: 20%;
+    padding-top: 1%;
+    float: left;
+}
+#overall .body .d2 .d3 .top{
+    height: 39%;
+    width: 50%;
+    font-size: 69px;
+    font-family: 黑体;
+    float: left;
+    padding-left: 4%;
+    line-height: 175%;
+}
+#overall .body .d2 .d3 .xia{
+    height: 39%;
+    width: 100%;
+    font-size: 32px;
+    font-family: 黑体;
+    position:relative;
+    top: 61%;
+    left: -51%;
+}
+#overall .body .d2 .d4{
+    width: 73%;
+    height: 55%;
+    float: left;
+    position:relative;
+    top: 5%;
+    left: 16%;
+    background-image: url("../img/发的图.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#overall .body .d2 .d5{
+    width: 100%;
+    height: 9%;
+    float: left;
+    position: relative;
+    top: 10%;
+    font-size: 28px;
+}
+#overall .body .d2 .d5 div{
+    position: relative;
+    top: 27%;
+}

@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#overall .head{
+    background-color: #eeeeee;
+}
+#overall .head .top{
+
+    height: 70px;
+    line-height: 70px;
+}
+#overall .head .left01{
+    height: 70px;
+    font-size: 40px;
+    float: left;
+
+}
+#overall .head .right01{
+    float: right;
+    width: 167px;
+}
+#overall .head .top01{
+    border-bottom: solid 1px #121312;
+    height: 100px;
+    line-height: 90px;
+}
+#overall .head .left02{
+    height: 70px;
+    font-size: 50px;
+    float: left;
+}
+#overall .head .right02{
+    font-size: 50px;
+    float: right;
+}
+
+#overall .body{
+    height: 1422px;
+    background-color: white;
+}
+#overall .body ul{
+    height: 1414px;
+    overflow: scroll;
+    list-style: none;
+}
+#overall .body .fuhao{
+    margin-right: 57px;
+    width: 15%;
+    height: 100px;
+    float: right;
+    font-size: 47px;
+    text-align: right;
+    line-height: 137px;
+}
+
+
+#overall .foot{
+    height: 150px;
+    background-color: #eeeeee;
+    display: flex;
+    line-height: 36px;
+}
+#overall .foot a{
+    text-align: center;
+    flex: 1;
+    padding: 32px;
+    font-size: 40px;
+    text-decoration:none;
+}
+#overall .foot a div{
+    font-size: 75px;
+    color: black;
+}
+#overall a{
+    text-decoration: none;
+    color: black;
+    font-family: 黑体;
+    display: block;
+    margin-top: 1px;
+}
+.a{
+    width: 260px;
+    height: 473px;
+    background-color: #666666;
+    position: absolute;
+    top: 8%;
+    left:71%;
+    padding-left: 2%;
+    display: none;
+}
+#s1:hover .a{
+    display: block;
+}
+#overall .foot a:hover{
+    background-color: #888888;
+}
+#overall .head .top .right01 .di{
+    height: 25px;
+    width: 75px;
+    animation: test 5s  infinite;
+    float: right;
+    margin-top: 10px;
+}
+@keyframes test{
+    0%{
+        background-color: red;
+        width: 0px;
+    }
+    15%{
+        width: 15px;
+    }
+    40%{
+        width: 29px;
+    }
+    70%{
+        width:50px;
+    }
+    100%{
+        background-color: #acff1c;
+        width: 70px;
+    }
+}
+#overall .head .top .right01 span{
+    font-size: 25px;
+    float: right;
+    width: 87px;
+    margin-top: -9px;
+}

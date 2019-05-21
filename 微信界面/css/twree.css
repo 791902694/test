@@ -1,0 +1,47 @@
+#overall .body ul li .overzo{
+    height: 124px;
+    display: flex;
+    margin-left: 20px;
+    width: 100%;
+}
+
+ #overall .body ul li{
+     height: 140px;
+     width: 98%;
+ }
+#overall .body ul li .xiahuaxian{
+    border-bottom: solid 1px black;
+    width: 100%;
+}
+#overall .body .lianxiren{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 70px;
+    float: left;
+}
+#overall .body .lianxiren img{
+    width: 76px;
+    height: 76px;
+}
+#overall .body .lianxiren01{
+    margin-left: 30px;
+    width: 70%;
+    height: 100px;
+    float: left;
+    font-size: 47px;
+    text-align: left;
+    line-height: 137px;
+    padding-bottom: 34px;
+}
+
+#overall .body .h{
+    height: 40px;
+    background-color: #b4b4b4;
+    border: none;
+}
+#overall .body .h div{
+    margin-left: 20px;
+}
+

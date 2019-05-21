@@ -1,0 +1,83 @@
+
+#overall .body ul li{
+    height: 140px;
+    width: 98%
+}
+#overall .body ul li .xiahuaxian{
+    border-bottom: solid 1px black;
+    width: 100%
+}
+#overall .body .lianxiren{
+    width: 100px;
+    height: 100px;
+    margin-top: 32px;
+    margin-left: 45px;
+    font-size: 86px;
+    float: left;
+}
+#overall .body .lianxiren img{
+    height: 80px;
+    height: 80px;
+}
+#overall .body .lianxiren01{
+    margin-left: 30px;
+    width: 802px;
+    height: 100px;
+    float: left;
+    font-size: 47px;
+    text-align: left;
+    line-height: 137px;
+    padding-bottom: 34px;
+}
+#overall .body .h{
+    height: 40px;
+    background-color: #b4b4b4;
+    border: none;
+    font-size: 38px;
+}
+#overall .body .h div{
+    margin-left: 20px;
+}
+#overall .body ul .ren{
+    height: 131px;
+}
+#overall .body ul li .overzo{
+    height: 100px;
+    display: flex;
+    margin-left: 20px;
+    width: 100%;
+}
+#overall .body ul li .bleft{
+    height: 100px;
+    width: 180px;
+    line-height: 169px;
+    background-size: cover;
+    margin: 12px;
+}
+#overall .body ul li .bleft img{
+    height: 107px;
+    width: 117px;
+    line-height: 169px;
+    background-size: cover;
+}
+#overall .body ul li .overzo .pdiv1{
+    font-size: 47px;
+    text-align: left;
+    height: 100px;
+    width: 802px;
+    line-height: 100px;
+    margin-left: -38px;
+    padding-top: 17px;
+    width: 100%;
+}
+#overall .body .ul1{
+    width: 5%;
+    height: 70%;
+    font-size: 38px;
+    position: absolute;
+    left: 95%;
+    top: 20%;
+}
+#overall .body .ul1 li{
+    height:4%;
+}
